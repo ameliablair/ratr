@@ -1,4 +1,6 @@
 Ratr::Application.configure do
+
+  Tmdb::Api.key("1a659f85f6bf08d0f3a9e77d79fd8377")
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
